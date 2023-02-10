@@ -39,7 +39,7 @@ class Splashscreen : ComponentActivity() {
             Surface(color = MaterialTheme.colors.background) {
                 
             }
-            imageSetForSplash()
+//            imageSetForSplash()
         }
     }
     @Composable
