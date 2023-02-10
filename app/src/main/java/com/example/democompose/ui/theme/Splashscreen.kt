@@ -39,11 +39,11 @@ class Splashscreen : ComponentActivity() {
             Surface(color = MaterialTheme.colors.background) {
                 
             }
-//            imageSetForSplash()
+            imageSetForSplash()
         }
     }
     @Composable
-    private fun imageSetForSplash(navController: NavController) {
+    private fun imageSetForSplash() {
         val scale= remember {
             androidx.compose.animation.core.Animatable(0f)
         }
